@@ -11,7 +11,7 @@ function attendreAvantDeDisparaitre() {
             faireDisparaitre();
 
           },
-          JSON.parse(data)[0].showFakeLoading == 0? 0: 5000);
+          JSON.parse(data)[0].showFakeLoading == 0? 0: 3000);
 
 }
 attendreAvantDeDisparaitre();
