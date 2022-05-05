@@ -1,1 +1,107 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+}
+/*votre beau css ici :-)*/
+.navbar {
+    background-color: aliceblue !important;
+}
+
+@keyframes top_colors {
+    0% {background-color: aliceblue;}
+    50% {background-color: azure;}
+    100% {background-color: aliceblue;}
+}
+
+.top {
+    border-style: solid;
+    margin:25px 50px 75px 100px;
+    padding: 30px;
+    animation-name: top_colors;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.container {
+    padding: 30px;
+}
+
+#hello {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1cm;
+    text-align: center;
+}
+
+.about {
+    border-style: solid;
+    margin:25px 50px 75px 100px ;
+    display: flex;
+}
+.aboutMe {
+    border-style: solid;
+    margin:25px 50px 75px 100px ;
+    display: flex;
+    background-color: aliceblue;
+}
+.about p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight:600;
+    padding: 25px;
+    text-align: justify;
+    margin: auto;
+}
+.aboutMe p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: x-large;
+    font-weight:500;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+}
+.back {
+    border-style: solid;
+    background-color : aliceblue
+}
+
+.back p{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.color {
+  border-left: 5px solid red;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  padding: 10px 20px;
+
+.interests {
+    padding: 30px;
+}
+
+.contact {
+    padding: 30px;
+}
+
+.projects{
+    padding: 30px;
+    margin:25px 50px 50px 70px ;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 55vh;
+  }
+
+
+.intro {
+    padding: 30px;
+    margin:25px 50px 50px 70px ;
+}
 
