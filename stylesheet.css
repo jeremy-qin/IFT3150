@@ -39,6 +39,7 @@ body {
     border-style: solid;
     margin:25px 50px 75px 100px ;
     display: flex;
+    height: 350px;
 }
 .aboutMe {
     border-style: solid;
