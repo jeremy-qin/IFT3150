@@ -54,7 +54,8 @@
                   </h2>
                   <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      Readings on fundamental topics such as Machine Learning basics, Convolutional Neural Network and Normalizing Flows.
+                      Looked at tutorial on fundamental concepts of Deep Learning.
                     </div>
                   </div>
                 </div>
@@ -66,7 +67,8 @@
                   </h2>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      Review Simon's presentation and concepts discussed during his presentation such as the learnable flows with Normalizing flows.
+                      Look into previous papers and state of the art architectures used for 3D point cloud data.
                     </div>
                   </div>
                 </div>
@@ -78,7 +80,88 @@
                   </h2>
                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      Reading papers on PointNet whose network is composed mainly by three key modules : a local and global information combination module, a two joint 
+                      alignment networks that aligns the input points and features and a max-pooling layer as a symmetric function for permutation invariance. 
+                      Also read papers on other interesting architectures such as KPConv.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                      Week 4
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                      Reproduce KPConv on Compute Canada cluster and read a review paper that summarizes different state of the art architectures with the common tasks that are used to assess them. 
+                      I was also able to reproduce PointNet and PointNet++ on my own machine, but because of computation constraints the model was only trained for 10 epochs.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                      Week 5
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                    <div class="accordion-body">
+                      Reviewing the survey paper and did a synthesis of interesting models that used similar concepts like SpyderCNN and PointCNN to find what is really the state of the art currently. Also, looked into interesting datasets 
+                      that we could potentially use. All the links to the datasets were added to the google sheets of the synthesis. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                      Week 6
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                    <div class="accordion-body">
+                      Looked into PyTorch more in depth like how to build custom modules, how to set a training loop by using torch built-in backpropagation and other useful tools. Also, looked into tutorials on building custom CNN with PyTorch. 
+                      I also did some tutorial on Normalizing Flows as I had some difficulty understanding and visualizing it. I was able to look into some visualizations of how it works and how we can use it to approximate and predict distributions. Code are all written in Google Colab Notebooks.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                      Week 7
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                    <div class="accordion-body">
+                      The new computers arrived to the lab and we were able to build them and get them started. We have been able to boot one and install ubuntu, but since we are missing a GPU the other computer has not booted yet. 
+                      After Simon's recommendation for the torch-geometric library, I was able to dig into it a bit and found another library called torch-points3d that is built heavily on torch-geomtric but with a more specific approach on using CNN for 3D point cloud data as 
+                      torch-geometric is more focused on GNN. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                      Week 8
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+                    <div class="accordion-body">
+                      I was able to do object/shape classification with torch-points3d library on the ModelNet40 dataset which is composed of 3D CAD models. I was able to perform the task on different state of the art achitectures that were offered by the torch-points 3d api like 
+                      PointNet++ and RS-CNN. The performance of the models were really good going around 90% accuracy when trained for 50 epochs. The metrics were all stored and visualized using tensorboard. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
+                      Week 9
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
+                    <div class="accordion-body">
+                      Looked into torch-points3d library for customizing models with state of the art backbone architectures. Some parts are still not super clear for me and I will have to ask Simon for a bit of help on that. Also, looked into object part segmentation using torch-points3d, but arrived at some hurdles. KPConv works well 
+                      for the task, but when using PointNet++ and RSConv, the code does not function as well. Further investigation will be done with Simon for next week. 
                     </div>
                   </div>
                 </div>
