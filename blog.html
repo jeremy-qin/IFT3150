@@ -166,6 +166,97 @@
                   </div>
                 </div>
               </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
+                    Week 10
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen">
+                  <div class="accordion-body">
+                    Reran experiments on ModelNet40 with PointNet++, RSCNN and KPConv, since the first runs contained data augmentation. Since we want to test on the raw dataset for validation, experiments had to be reran. 
+                    Then, a different dataset configuration with no transformations was added.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false" aria-controls="panelsStayOpen-collapseEleven">
+                    Week 11
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEleven">
+                  <div class="accordion-body">
+                    Ran experiments on ModelNet10 with PointNet++, RSCNN and KPConv. Since experiments on ModelNet40 were already ran, it was pretty simple to run it on ModelNet10. 
+                    Experiments also took less time to train which helped with time efficiency. Also, ran some experiments to test and visualize how Normalizing flows worked. Training visualizations of a simple flow model was done. 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading12">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse12" aria-expanded="false" aria-controls="panelsStayOpen-collapse12">
+                    Week 12
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse12" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading12">
+                  <div class="accordion-body">
+                    Started building CNN benchmarks for later comparison wih SignalFlow. The architecture for the models were based on AlexNet. It mainly contains convolutional blocks made of a convolution layer, an activation function and a pooling layer.
+                    3 blocks were chosen to keep a balance between complexity and efficiency. Tested the benchmarks on MNIST and CIFAR10.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading13">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse13" aria-expanded="false" aria-controls="panelsStayOpen-collapse13">
+                    Week 13
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse13" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading13">
+                  <div class="accordion-body">
+                    Continued experiments on benchmark datasets with CIFAR100 added. Since CIFAR100 is a bit more complex compared to MNIST and CIFAR10, adjustments were made so that training can work. Started writing a draft report and slides for the final deliverable.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading14">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse14" aria-expanded="false" aria-controls="panelsStayOpen-collapse14">
+                    Week 14
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse14" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading14">
+                  <div class="accordion-body">
+                    Found a flaw in my model architecture because training and loss graphs had a weird behaviour. The reason was that no activation function was added after a convolution layer when I tried a deeper and more complex architecture. 
+                    Fixed the problem by simplyfying the architecture and making sure that activation function were there. Experiments were then reran with the corrected architecture.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading15">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse15" aria-expanded="false" aria-controls="panelsStayOpen-collapse15">
+                    Week 15
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse15" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading15">
+                  <div class="accordion-body">
+                    Ran SignalFlow on all the benchmark datasets. For comparison, logging (wandb) was added into Simon Demeule's code. Training configurations for SignalFlow were set to match the ones used by the basic CNN in order for a valid comparison.
+                    This week mainly focused on getting results for SignalFlow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading16">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse16" aria-expanded="false" aria-controls="panelsStayOpen-collapse16">
+                    Week 16
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse16" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading16">
+                  <div class="accordion-body">
+                    This week was the final one before the final deliverable so most time were spent on finalizing the results of the experiments and the report.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <br>
         <div class="contact">
@@ -177,7 +268,7 @@
                 </li>
                 <br>
                 <li>
-                    <i class="bi bi-github"> <a style="font-size: large; color: black; font-style: normal;" href="https://www.linkedin.com/in/jeremy-qin-280a82180/">GitHub</a></i>
+                    <i class="bi bi-github"> <a style="font-size: large; color: black; font-style: normal;" href="https://github.com/jeremy-qin/CNN-Magic">GitHub</a></i>
                 </li>
             </ul>
         </div>
